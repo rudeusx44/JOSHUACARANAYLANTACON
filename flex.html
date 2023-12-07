@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> CARANAY'S WEBPAGE </title>
+    <style>
+        Body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav {
+            width: 100%;
+            color-scheme: rgba(255, 255, 255, 0.5);
+            overflow: auto;
+        }
+        
+        ul {
+            padding: 0;
+            margin: 0 0 0 150px;
+            list-style: none;
+        }
+        
+        li {
+            float: right;
+        }
+        
+        .logo img {
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 10px;
+            animation: glow 1s infinite alternate;
+            box-shadow: 0 0 20px gray;
+        }
+        
+        nav a {
+            width: 100px;
+            display: block;
+            padding: 30px 20px;
+            text-decoration: none;
+            font-family: Verdana (sans-serif);
+            color: #f2f2f2;
+            text-align: center;
+        }
+        
+        nav a:hover {
+            background: linear-gradient(to right, black, gray);
+            transition: 0.5s;
+            text-transform: uppercase;
+        }
+        
+        .image-container {
+            text-align: center;
+        }
+        
+        footer {
+            color: black(224, 192, 255);
+            color-scheme: rgba(255, 255, 255, 0.5);
+            font-family: corsiva;
+            text-align: center;
+            padding: 10px;
+            position: inherit;
+            bottom: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+        
+        .button-container {
+            text-align: center;
+            margin: 10px 0;
+        }
+        
+        .button-container button {
+            margin: 0 5px;
+        }
+        
+        .circular-image {
+            border-radius: 50%;
+        }
+        
+        quotes-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+        
+        .container {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 20px auto;
+            padding-left: 100px;
+            padding-right: 100px;
+            background: linear-gradient(to right, black, #82E0AA);
+            box-shadow: 0 0 5px;
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+        }
+        
+        p {
+            color: white;
+        }
+        
+        h2 {
+            color: white;
+            text-shadow: 0 0 2px blue, 0 0 10px red;
+        }
+        
+        h3 {
+            color: white;
+        }
+        
+        .round-image {
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        
+        .image-row img {
+            transition: 1s ease;
+        }
+        
+        .image-row img:hover {
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+            transition: 1s ease;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <body background="111\00.gif">
+
+        <div class="logo">
+            <a href="#"><img src="111\2222.jpg" class=""></a>
+
+        </div>
+        <nav>
+            <ul>
+
+                <li><a href="flex.html"> FLEX PAGE</a></li>
+                <li><a href="ITIIIBLOG.html"> ITIII BLOG ENTRIES</a></li>
+                <li><a href="index.html"> HOME</a></li>
+            </ul>
+
+        </nav>
+
+        <hr>
+        <div class="image-container">
+            <h1 id="text">PHOTOS THAT I LIKE</h1>
+            <script>
+                const textElement = document.getElementById('text');
+
+                let colorIndex = 0;
+                const colors = ['white', 'gray', 'blacks', 'pink', 'purple'];
+
+                setInterval(() => {
+                    textElement.style.color = colors[colorIndex];
+                    colorIndex = (colorIndex + 1) % colors.length;
+                }, 1000); // Change color every 1 second
+            </script>
+            <div class="shrink">
+                <div class="image-row">
+                    <img src="111/1.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/2.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/3.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/4.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/5.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                </div>
+                <div class="image-row">
+                    <img src="111/6.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/7.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/8.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/9.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/10.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                </div>
+                <div class="image-row">
+                    <img src="111/11.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/12.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/13.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/14.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                    <img src="111/15.jpg" alt="Image Description" style="width: 200px; height: auto;">
+                </div>
+            </div>
+            <hr>
+            <video src="111\VID_20231103_181045.mp4" width="300" height="300" class="box-image" controls/>
+
+            </video>
+
+            <video src="111\VID_20230717_155209.mp4" width="300" height="300" class="box-image" controls/>
+
+            </video>
+
+            <video src="111\2023-07-21-202134643.mp4" width="300" height="300" class="box-image" controls/>
+
+            </video>
+
+            </video>
+
+            <video src="111\2022-11-28-164836649(0).mp4" width="300" height="300" class="box-image" controls/>
+
+            </video>
+            <div class="button-container">
+                <a href="file:///D:/Caranay,%20Joshua/like.html/"><img src="111/youtube.jpg" alt="YouTube" style="height: 30px;" class="circular-image"></a>
+                <a href="https://www.instagram.com/"><img src="111/instagram.jpg" alt="Instagram" style="height: 30px;" class="circular-image"></a>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="111/download.jpg" alt="Facebook" style="height: 30px;" class="circular-image"></a>
+            </div>
+
+            <hr>
+            <footer>
+                <p>
+                    <h2>CREDITS&copy; CARANAY_2023</h2>
+                </p>
+            </footer>
+
+
+    </body>
+
+</html>

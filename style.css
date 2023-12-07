@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    fill-opacity: inherit;
+}
+
+nav {
+    width: 100%;
+    color-scheme: rgba(255, 255, 255, 0.5);
+    overflow: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+li {
+    float: right;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    animation: glow 1s infinite alternate;
+    box-shadow: 0 0 20px gray;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+nav a:hover {
+    background: linear-gradient(to right, black, gray);
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.container {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 100px;
+    color-scheme: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5px;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px pink;
+}
+
+footer {
+    color: white;
+    color-scheme: rgba(255, 255, 255, 0.5);
+    font-family: corsiva;
+    text-align: center;
+    padding: 10px;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+p {
+    color: rgb(21, 0, 255);
+}
+
+.img {
+    width: 10px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    height: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.likes-dislikes-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.button-container {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.button-container button {
+    margin: 0 5px;
+}
+
+.circular-image {
+    border-radius: 50%;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.round-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+h3 {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
